@@ -1,0 +1,50 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Outfit:wght@400;700&family=Patrick+Hand&display=swap');
+
+body{ 
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+
+}
+
+div { 
+    background-color:hsl(0, 0%, 100%);
+    width: 250px;
+    margin: 150px auto;
+    padding: 15px;
+    border-radius: 20px;
+}
+img{  width: 100%;
+    height: auto;
+
+border-radius: 5%;
+}
+h3{
+     text-align: justify;
+     text-align: center;
+    margin-top: 15px;
+}
+p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+    color:hsl(220, 15%, 55%)
+    
+}
+
+@media only screen and (max-width: 600px) {
+    div { 
+        width: 350px;
+        margin: 80px auto;
+        
+    }
+
+    h3{
+        font-size: 27px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+  }
+  
